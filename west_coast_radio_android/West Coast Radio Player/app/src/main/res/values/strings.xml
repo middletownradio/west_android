@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MidwestRadio</string>
+    <string name="midwest_radio_player">Midwest Radio Player</string>
+    <string name="less_than"><![CDATA[<]]></string>
+    <string name="_104_1">104.1</string>
+    <string name="play">PLAY</string>
+    <string name="pause">PAUSE</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="stop">STOP</string>
+    <string name="greater"><![CDATA[>]]></string>
+    <string name="all_stations">All Stations</string>
+    <string name="help">Help</string>
+    <string name="radio_help">On this screen, you can play the radio, save preset stations, and scan stations. In order to save a station to
+        a preset area, pull up the station you would like to save and then long hold in the preset area you want to save it to.
+        The single and double arrows are how you switch stations. If you click on the single arrows, the next station will be shown.
+        If you click on one of the double arrows the radio will scan in that direction, switching every 5 seconds. It will continue
+        scanning until you click another option.</string>
+    <string name="list_help">This screen shows you all stations in the radio application. If you click on one of the stations, a pop up will
+        show up with all the information on that station. You can then click ‘Play’ if you would like that station to begin playing in your radio,
+        or click the back button to go back to the list of all stations.</string>
+    <string name="back"><![CDATA[< Back]]></string>
+    <string name="uh_oh_no_internet_connectivity_was_detected">Uh Oh! No internet connectivity was detected.</string>
+    <string name="loading">Loading</string>
+    <string name="loading1">Loading.</string>
+    <string name="loading2">Loading..</string>
+    <string name="loading3">Loading...</string>
+    <string name="no_internet">No Internet Connectivity Detected</string>
+    <string name="error1">There was an error retrieving the application data</string>
+    <string name="scan_left"><![CDATA[<<]]></string>
+    <string name="scan_right"><![CDATA[>>]]></string>
+    <string name="purple_calves">Conceived by Robert Willey</string>
+    <string name="contributions_by">Developed by: Nick Torres and Seth Winslow</string>
+    <string name="kristen_weber_front_end">Kristen Weber: Front End</string>
+    <string name="nick_torres_android">Nick Torres: Android</string>
+    <string name="rachel_harvey_ios">Rachel Harvey: iOS</string>
+    <string name="seth_winslow_database_and_api">Seth Winslow: Database and API</string>
+    <string name="name">Name:</string>
+    <string name="call_letters">Call Letters:</string>
+    <string name="frequency">Frequency:</string>
+    <string name="slogan">Slogan:</string>
+</resources>

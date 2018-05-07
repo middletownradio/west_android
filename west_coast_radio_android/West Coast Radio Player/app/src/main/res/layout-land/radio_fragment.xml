@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:id="@+id/websiteImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/web_icon"
+            android:layout_alignBottom="@+id/short_name"
+            android:layout_toRightOf="@+id/short_name"
+            android:layout_toEndOf="@+id/short_name" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:id="@+id/short_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            tools:text="WCRD"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:id="@+id/frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="104.1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="City, State"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <middletownmusic.org.midwestradio.utils.RadioTextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="some description thing"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <middletownmusic.org.midwestradio.utils.RadioTextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingStart="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Genre: Reggaeton" />
+
+    <middletownmusic.org.midwestradio.utils.RadioTextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Type: Commercial" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3">
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/previous_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/scan_left" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/previous"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:textSize="20sp"
+            android:text="@string/less_than" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/playButton"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="@string/play" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/stopButton"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="@string/stop" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/next"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@drawable/button_border"
+            android:text="@string/greater" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/next_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:textSize="20sp"
+            android:text="@string/scan_right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/button1"
+            android:textColor="@color/black"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_weight="1"
+            android:text="@string/_1" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/button2"
+            android:textColor="@color/black"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_weight="1"
+            android:text="@string/_2" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/button3"
+            android:textColor="@color/black"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_weight="1"
+            android:text="@string/_3" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/button4"
+            android:textColor="@color/black"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="@string/_4" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/button5"
+            android:textColor="@color/black"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_weight="1"
+            android:text="@string/_5" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:id="@+id/button6"
+            android:textColor="@color/black"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_weight="1"
+            android:text="@string/_6" />
+    </LinearLayout>
+
+</RelativeLayout>

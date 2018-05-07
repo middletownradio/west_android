@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/listRow"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:textSize="16sp"
+    android:weightSum="1">
+
+    <middletownmusic.org.midwestradio.utils.RadioTextView
+        android:id="@+id/listrow_station_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.85"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

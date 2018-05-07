@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/loading_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loading_layout"
+        android:layout_alignParentTop="true"
+        android:paddingTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:id="@+id/left_triangle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="17dp"
+                android:layout_weight=".1"
+                android:adjustViewBounds="true"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="120dp"
+                app:srcCompat="@drawable/left_triangles" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:id="@+id/loading_image">
+                <ImageView
+                    android:id="@+id/mwm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    app:srcCompat="@drawable/mwm"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:layout_alignBottom="@+id/headphones"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <ImageView
+                    android:id="@+id/headphones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/headphones"
+                    android:adjustViewBounds="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/right_triangle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="13dp"
+                android:layout_marginEnd="13dp"
+                android:layout_weight="0.1"
+                android:adjustViewBounds="true"
+                android:paddingTop="120dp"
+                app:srcCompat="@drawable/right_triangles" />
+        </LinearLayout>
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@color/orange"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="68dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

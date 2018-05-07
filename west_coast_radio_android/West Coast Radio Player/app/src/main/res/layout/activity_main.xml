@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="0dp"
+        tools:context="middletownmusic.org.midwestradio.MainActivity">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#24487C"
+            android:paddingTop="-10dp">
+
+            <ImageButton
+                android:id="@+id/helpButton"
+                android:visibility="invisible"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/help_icon"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/menuButton"
+                android:layout_toStartOf="@+id/menuButton"
+                android:layout_marginRight="11dp"
+                android:layout_marginEnd="11dp" />
+
+            <ImageButton
+                android:id="@+id/menuButton"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:background="@drawable/menu_button"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/drawer"
+        android:layout_width="223dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#D3D3D3"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+            <ListView
+                android:id="@+id/drawer_items"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="@color/black"
+                android:dividerHeight="1dip"/>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>
+

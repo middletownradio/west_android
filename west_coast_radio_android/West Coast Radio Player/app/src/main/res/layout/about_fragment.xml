@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:padding="20sp"
+            android:id="@+id/purple_calves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="@string/purple_calves"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:id="@+id/contributions_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20sp"
+            android:paddingBottom="15dp"
+            android:text="@string/contributions_by"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20sp"
+            android:paddingBottom="15dp"
+            android:text="Better music for a better you"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/info_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10sp">
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:id="@+id/long_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/name"
+            android:paddingBottom="25sp"
+            android:textColor="@color/black"
+            android:textSize="27sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/long_name"
+            android:id="@+id/short_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/call_letters"
+            android:paddingBottom="5sp"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/short_name"
+            android:id="@+id/frequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1sp"
+            android:paddingBottom="5sp"
+            android:textColor="@color/black"
+            android:text="@string/frequency"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/frequency"
+            android:id="@+id/slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1sp"
+            android:paddingBottom="5sp"
+            android:textColor="@color/black"
+            android:text="@string/slogan"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/slogan"
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1sp"
+            android:paddingBottom="5sp"
+            android:textColor="@color/black"
+            android:text="City:"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/city"
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1sp"
+            android:paddingBottom="5sp"
+            android:textColor="@color/black"
+            android:text="State:"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/state"
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:lineSpacingExtra="1sp"
+            android:textColor="@color/black"
+            android:text="Type:"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/type"
+            android:id="@+id/genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:lineSpacingExtra="1sp"
+            android:textColor="@color/black"
+            android:text="Genre: some crazy thing here aaaaaaaaaaaaaaaaaaaaa ya"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioTextView
+            android:layout_below="@+id/genre"
+            android:id="@+id/website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:lineSpacingExtra="1sp"
+            android:textColor="@color/black"
+            android:text="Website:"
+            android:textSize="17sp" />
+
+        <middletownmusic.org.midwestradio.utils.RadioButton
+            android:layout_below="@+id/website"
+            android:id="@+id/playButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/button_border"
+            android:text="@string/play" />
+    </RelativeLayout>
+
+</ScrollView>
