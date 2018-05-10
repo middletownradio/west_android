@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:padding="20sp">
 
-    <middletownmusic.org.midwestradio.utils.RadioTextView
+    <middletownmusic.org.westcoastradio.utils.RadioTextView
         android:id="@+id/helpTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         android:layout_height="2dp"
         android:background="@color/black"/>
 
-    <middletownmusic.org.midwestradio.utils.RadioTextView
+    <middletownmusic.org.westcoastradio.utils.RadioTextView
         android:id="@+id/help_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

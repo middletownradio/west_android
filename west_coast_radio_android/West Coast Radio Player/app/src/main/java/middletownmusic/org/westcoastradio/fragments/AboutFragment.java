@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.fragments;
+package middletownmusic.org.westcoastradio.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
 
-import middletownmusic.org.midwestradio.R;
+import middletownmusic.org.westcoastradio.R;
 
 public class AboutFragment extends DialogFragment {
 

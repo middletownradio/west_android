@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:padding="20sp"
             android:id="@+id/purple_calves"
             android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
             android:gravity="center"
             />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:id="@+id/contributions_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             android:textSize="25sp" />
 
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

@@ -4,11 +4,11 @@ android {
     compileSdkVersion 26
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "middletownmusic.org.midwestradio"
+        applicationId "middletownmusic.org.westcoastradio"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 5
-        versionName '3.0'
+        versionCode 1
+        versionName '1.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         jackOptions {
             enabled true

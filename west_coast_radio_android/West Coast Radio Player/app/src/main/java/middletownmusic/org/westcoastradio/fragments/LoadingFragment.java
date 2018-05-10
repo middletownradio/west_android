@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.fragments;
+package middletownmusic.org.westcoastradio.fragments;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,11 +14,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
-import middletownmusic.org.midwestradio.R;
-import middletownmusic.org.midwestradio.models.Station;
-import middletownmusic.org.midwestradio.models.StationListFactory;
-import middletownmusic.org.midwestradio.network.HttpClient;
-import middletownmusic.org.midwestradio.network.Requests;
+import middletownmusic.org.westcoastradio.R;
+import middletownmusic.org.westcoastradio.models.Station;
+import middletownmusic.org.westcoastradio.models.StationListFactory;
+import middletownmusic.org.westcoastradio.network.HttpClient;
+import middletownmusic.org.westcoastradio.network.Requests;
 
 
 public class LoadingFragment extends Fragment {

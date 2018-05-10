@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio;
+package middletownmusic.org.westcoastradio;
 
 
 import android.content.Intent;
@@ -19,14 +19,14 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import java.util.ArrayList;
-import middletownmusic.org.midwestradio.fragments.AboutFragment;
-import middletownmusic.org.midwestradio.fragments.HelpFragment;
-import middletownmusic.org.midwestradio.fragments.LoadingFragment;
-import middletownmusic.org.midwestradio.fragments.RadioFragment;
-import middletownmusic.org.midwestradio.fragments.StationInfoFragment;
-import middletownmusic.org.midwestradio.fragments.StationListFragment;
-import middletownmusic.org.midwestradio.models.Station;
-import middletownmusic.org.midwestradio.utils.DrawerUtils;
+import middletownmusic.org.westcoastradio.fragments.AboutFragment;
+import middletownmusic.org.westcoastradio.fragments.HelpFragment;
+import middletownmusic.org.westcoastradio.fragments.LoadingFragment;
+import middletownmusic.org.westcoastradio.fragments.RadioFragment;
+import middletownmusic.org.westcoastradio.fragments.StationInfoFragment;
+import middletownmusic.org.westcoastradio.fragments.StationListFragment;
+import middletownmusic.org.westcoastradio.models.Station;
+import middletownmusic.org.westcoastradio.utils.DrawerUtils;
 
 
 public class MainActivity extends AppCompatActivity implements DrawerUtils.DrawerItemClickListener {

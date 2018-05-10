@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:padding="10sp">
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:id="@+id/long_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
             android:textColor="@color/black"
             android:textSize="27sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/long_name"
             android:id="@+id/short_name"
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:textColor="@color/black"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/short_name"
             android:id="@+id/frequency"
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:text="@string/frequency"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/frequency"
             android:id="@+id/slogan"
             android:layout_width="match_parent"
@@ -50,7 +50,7 @@
             android:text="@string/slogan"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/slogan"
             android:id="@+id/city"
             android:layout_width="match_parent"
@@ -61,7 +61,7 @@
             android:text="City:"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/city"
             android:id="@+id/state"
             android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             android:text="State:"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/state"
             android:id="@+id/type"
             android:layout_width="match_parent"
@@ -83,7 +83,7 @@
             android:text="Type:"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/type"
             android:id="@+id/genre"
             android:layout_width="match_parent"
@@ -94,7 +94,7 @@
             android:text="Genre: some crazy thing here aaaaaaaaaaaaaaaaaaaaa ya"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioTextView
+        <middletownmusic.org.westcoastradio.utils.RadioTextView
             android:layout_below="@+id/genre"
             android:id="@+id/website"
             android:layout_width="match_parent"
@@ -105,7 +105,7 @@
             android:text="Website:"
             android:textSize="17sp" />
 
-        <middletownmusic.org.midwestradio.utils.RadioButton
+        <middletownmusic.org.westcoastradio.utils.RadioButton
             android:layout_below="@+id/website"
             android:id="@+id/playButton"
             android:layout_width="fill_parent"

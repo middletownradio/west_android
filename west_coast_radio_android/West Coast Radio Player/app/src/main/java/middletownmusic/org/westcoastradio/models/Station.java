@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.models;
+package middletownmusic.org.westcoastradio.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;

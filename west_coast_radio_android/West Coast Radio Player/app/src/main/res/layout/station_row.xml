@@ -7,7 +7,7 @@
     android:textSize="16sp"
     android:weightSum="1">
 
-    <middletownmusic.org.midwestradio.utils.RadioTextView
+    <middletownmusic.org.westcoastradio.utils.RadioTextView
         android:id="@+id/listrow_station_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

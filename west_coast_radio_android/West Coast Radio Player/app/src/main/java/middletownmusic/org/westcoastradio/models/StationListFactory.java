@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.models;
+package middletownmusic.org.westcoastradio.models;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.JSONArray;
